@@ -1,0 +1,21 @@
+{
+  "name": "executive-command-center",
+  "version": "1.0.0",
+  "description": "Production-grade Executive Command Center with daily Outlook processing and real-time dashboard",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js"
+  },
+  "keywords": ["executive", "command-center", "outlook", "dashboard"],
+  "author": "Aeraj M. Patel",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
